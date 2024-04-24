@@ -1,0 +1,22 @@
+<form>
+  <mat-card>
+      <mat-card-content fxLayout="column">
+          <span>Iniciar Sesión</span>
+          <p>Inicie sesión para disfrutar de nuestros servicios</p>
+          <mat-form-field>
+              <mat-label>Correo</mat-label>
+              <input type="text" matInput placeholder="Ingrese su correo" required>
+              <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+          <mat-form-field>
+              <mat-label>Contraseña</mat-label>
+              <input type="{{hidePassword?'password':'text'}}" matInput placeholder="Ingrese su contraseña" required>
+              <button mat-icon-button type="button" (click)="hidePassword=!hidePassword">
+                  <mat-icon matSuffix>{{hidePassword?"lock":"lock_open"}}</mat-icon>
+              </button>
+
+          </mat-form-field>
+          <button mat-button>Iniciar Sesión</button>
+      </mat-card-content>
+  </mat-card>
+</form>

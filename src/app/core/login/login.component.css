@@ -1,0 +1,14 @@
+mat-card {
+  border-radius: 10%;
+}
+:host{
+  width: 80%;
+  display: block;
+}
+span{
+  text-align: center;
+  font-size: 32px;
+}
+p{
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+img{
+  width: 48px;
+  height: 48px;
+}
+mat-toolbar{
+  background-color: #467c97 !important;
+  height: 80px;
+}
+h2{
+  font-size: 25px;
+  color: white !important;
+  line-height: 80px;
+}

@@ -30,7 +30,7 @@ export class TableComponent {
     if (!this.columnDef) {return}
     this.columnDef.forEach(column => {
       this.columns.push(column.name);
-      
+      this.table.addColumnDef(column);
     });
   }
 }

@@ -24,7 +24,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatTableModule,
     MatPaginatorModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule
   ],
   exports: [
     HeaderComponent,
@@ -33,7 +34,10 @@ import { MatButtonModule } from '@angular/material/button';
     ContainerComponent,
     TableComponent,
     NgScrollbarModule,
-    FlexModule
+    FlexModule,
+    MatIconModule,
+    MatButtonModule,
+    MatTableModule
   ]
 })
 export class SharedModule { }

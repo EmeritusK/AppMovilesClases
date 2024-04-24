@@ -1,4 +1,5 @@
 <div fxLayout="column">
+  <ng-content></ng-content>
   <table mat-table [dataSource]="data">
       <ng-container [matColumnDef]="metadata.field" *ngFor="let metadata of metaDataColumns">
           <th mat-header-cell *matHeaderCellDef>{{metadata.title}}</th>
